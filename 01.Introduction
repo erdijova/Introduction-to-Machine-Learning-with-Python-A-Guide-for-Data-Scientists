@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM4ND960oZhBBlYMl3pw4Bj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/erdijova/Introduction-to-Machine-Learning-with-Python-A-Guide-for-Data-Scientists/blob/main/01.Introduction\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install preamble\n",
+        "from preamble import *\n",
+        "%matplotlib inline"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1GSqB2thMTu2",
+        "outputId": "3e052d09-ffc7-4d96-d10d-32e3c2e34aac"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting preamble\n",
+            "  Downloading preamble-0.0.4-py3-none-any.whl.metadata (614 bytes)\n",
+            "Downloading preamble-0.0.4-py3-none-any.whl (5.0 kB)\n",
+            "Installing collected packages: preamble\n",
+            "Successfully installed preamble-0.0.4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "x = np.array([[1, 2, 3], [4, 5, 6]])\n",
+        "print(\"x:\\n{}\".format(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UGEFSeO-Oyzm",
+        "outputId": "cf531e5f-37cf-4591-f08c-0bc9491e25ca"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x:\n",
+            "[[1 2 3]\n",
+            " [4 5 6]]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
